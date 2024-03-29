@@ -13,6 +13,14 @@ const Navbar = () => {
       height={100} 
       />
       </div>
+      <h1 className="text-white text-[25px] font-semibold">
+        My Portfolio
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-red-500">
+            {" "}
+            Dev
+            {" "}
+            </span>
+      </h1>
       <div className='flex text-white flex-row gap-5 mb-2'>
          {Socials.map((social) =>(
           <Image

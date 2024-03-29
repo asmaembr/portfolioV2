@@ -2,6 +2,90 @@ import { RxHome, RxPerson, RxDashboard, RxClipboard, RxActivityLog, RxAccessibil
 
 export const SkillData = [
   {
+    name: "Java",
+    Image: "/java.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "C++",
+    Image: "/cpp.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "C#",
+    Image: "/csharp.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Figma",
+    Image: "/figma.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Git ",
+    Image: "/git.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Flutter",
+    Image: "/flutter.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: ".Net Framework",
+    Image: "/dotnet.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Spring",
+    Image: "/spring.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Python",
+    Image: "/python.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "mysql DB",
+    Image: "/mysql.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "SQL sever",
+    Image: "/sqlms.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Oracle Database",
+    Image: "/oracle.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "docker",
+    Image: "/docker.webp",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "React",
+    Image: "/react.png",
+    width: 80,
+    height: 80,
+  },
+  {
     name: "Html 5",
     Image: "/html.png",
     width: 80,
@@ -16,24 +100,12 @@ export const SkillData = [
   {
     name: "JavaScript",
     Image: "/js.png",
-    width: 65,
-    height: 65,
+    width: 80,
+    height: 80,
   },
   {
     name: "Tailwind Css",
     Image: "/tailwind.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "React",
-    Image: "/react.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "Redux",
-    Image: "/redux.png",
     width: 80,
     height: 80,
   },
@@ -49,31 +121,8 @@ export const SkillData = [
     Image: "/next.png",
     width: 80,
     height: 80,
-  },
-  {
-    name: "Framer Motion",
-    Image: "/framer.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "Stripe Payment",
-    Image: "/stripe.webp",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "Node js",
-    Image: "/node-js.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "Mongo db",
-    Image: "/mongodb.png",
-    width: 40,
-    height: 40,
-  },
+  }
+  
 ];
 
 export const Socials = [
