@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation'
 import {useEffect} from 'react'
 import { NavLinks } from '@/constants'
 import Link from 'next/link'
-
+import Transition from './Transition'
 
 const Navigation = () => {
 
@@ -35,9 +35,11 @@ const Navigation = () => {
   return (
     <div 
       style={{left : "20%"}}
-      className='absolute z-[50] bottom-20 w-[50%] md:w-[20%] max-h-[150px] rounded-full flex justify-between items-center bg-black border-white'>
-      {
-        NavLinks.map((nav) => (
+      className='absolute z-[50] bottom-20 w-[50%] md:w-[20%] max-h-[150px] rounded-full flex justify-between items-center bg-black border-white'
+      >
+      
+      {isRouting && <Transition/>}
+      { NavLinks.map((nav) => (
           <Link 
           key={nav.name} 
           href={nav.link}
