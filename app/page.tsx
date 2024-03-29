@@ -10,41 +10,14 @@ export default function Home() {
        >
         <div className='pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]'>
           <h1 className='text-[50px] text-white font-semibold'>
-            Welcome to my Portfolio
+            Welcome to my Portfolio <br></br>
             <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-blue-800'>
             {" "} I am  Software Engineering student 
             </span>
           </h1>
-          <div className='flex-col md:flex-row hidden md:flex gap-5'>
-              <Link href='/my-skills' className="rounded-[20px] group relative bg-blue-800 hover:bg-purple-900 px-5 py-3 text-lg text-white max-w-[200px]">
-               About Me 
-              </Link>
-
-              <Link href='/my-projects' className="rounded-[20px] group relative bg-blue-800 hover:bg-purple-900 px-5 py-3 text-lg text-white max-w-[200px]">
-               My Projects 
-              </Link>
-
-              <Link href='/contact-me' className="rounded-[20px] group relative bg-blue-800 hover:bg-purple-900 px-5 py-3 text-lg text-white max-w-[200px]">
-               Contact Me 
-              </Link>
-           </div>
         </div>
       </div>
 
-      <div className='absolute flex bottom-10 z-[20] right-5 flex-col md:hidden gap-5'>
-              <Link href='/my-skills' 
-              className="rounded-[20px] group bg-blue-800 hover:bg-purple-900 px-5 py-3 text-lg text-white max-w-[200px]">
-               About Me 
-              </Link>
-              <Link href='/my-projects'
-               className="rounded-[20px] group bg-blue-800 hover:bg-purple-900 px-5 py-3 text-lg text-white max-w-[200px]">
-               My Projects 
-              </Link>
-              <Link href='/contact-me' 
-              className="rounded-[20px] group bg-blue-800 hover:bg-purple-900 px-5 py-3 text-lg text-white max-w-[200px]">
-               Contact me 
-              </Link>
-      </div>
            <div className="absolute bottom-0 right-0 z-[10]">
             <Image
             src="/horse.png"
