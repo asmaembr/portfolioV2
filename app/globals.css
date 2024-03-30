@@ -1,6 +1,15 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
- body{
-    overflow : hidden;
- }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+overflow: hidden; 
+
+}
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.slick-dots li.slick-active button:before {
+  color:orange !important;
+}
