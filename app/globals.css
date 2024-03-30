@@ -11,5 +11,5 @@ overflow: hidden;
 }
 
 .slick-dots li.slick-active button:before {
-  color:orange !important;
+  color:white !important;
 }

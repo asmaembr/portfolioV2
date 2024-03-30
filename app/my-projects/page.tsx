@@ -8,11 +8,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const Page = () => {
+  const isMobile =  window.innerWidth <= 768; 
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: isMobile ? 1 : 3, 
     slidesToScroll: 1
   };
   return (
@@ -26,13 +27,13 @@ const Page = () => {
       </video>
       
       <div className='w-full h-full flex flex-col items-center justify-center'>
-      <div className=" w-full mt-20">
+      <div className=" w-full mt-10">
       <div className=" relative mt-5 text-center ">
       <h1 className='font-semibold mr-5 ml-5 text-white text-[30px]'>
             Projects 
             </h1>
           <p className="ml-5 mr-5 text-gray-400 text-lg ">
-          Here&apos;s some projects I enjoyed working on
+          Here&apos;s some projects I enjoyed creating. Feel free to check them out on GitHub.
           </p>
           </div>
       <Slider {...settings}>
@@ -53,12 +54,13 @@ const Page = () => {
               <Link 
               key={d.title}
               href={d.link}
-              className=' text-white text-lg px-6 py-1 rounded-xl'>
+              className="text-white text-lg px-6 py-1 rounded-xl ">
                   <Image
-                  src='/github.svg'
+                  src="/github.svg"
                   alt='git repository'
                   width={40}
                   height={40}
+                  style={{ filter: 'brightness(0) invert(1)' }}
                  />
               </Link>
             </div>

@@ -26,7 +26,7 @@ const Page = () => {
             Skills
             <span className=" text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-red-500">
             {" "}
-            &amp; 
+            &amp;
             {" "}
             </span>
             Technologies

@@ -127,8 +127,8 @@ export const Projects = [
     text: "Creating a mobile application that provides a chatbot service for the users using Flutter and DialogFlow concepts such as DashChat , HTTP requests .",
     src: "/amigo.png",
     link:"https://github.com/asmaembr/Amigo-app",
-    width: 90,
-    height:90,
+    width: 80,
+    height:80,
   },
   {
     title:" Flutter Jazz Music ",
@@ -143,8 +143,8 @@ export const Projects = [
     text: "Developing a Desktop App for age and gender detection, applying machine learning and model training with Python tools like Tkinter and OpenCV.",
     src: "/facia.png",
     link:"https://github.com/asmaembr/Artificial-Intelligence-Project-June-2023-",
-    width: 100,
-    height:100,
+    width: 80,
+    height:80,
   },
 
 
