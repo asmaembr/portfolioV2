@@ -30,18 +30,19 @@ const Page = () => {
       <div className="mt-20">
       <Slider {...settings}>
         {Projects.map((d) => (
-          <div key={d.title} className="bg-[#] h-[450px] text-black rounded-xl">
-            <div className='h-56 flex justify-center items-center'>
+          <div key={d.title} className="bg-[#32174D] h-[450px] text-white rounded-xl">
+            <div className='flex justify-center items-center'>
               <Image
                src={d.src}
                 alt={d.title} 
                 width={d.width}
                 height={d.height}
+                className='h-40 w-40'
                 />
             </div>
 
             <div className="flex flex-col items-center justify-center gap-4 p-4 ">
-              <p className="text-xl font-semibold">{d.title}</p>
+              <h2 className="text-xl font-semibold">{d.title}</h2>
               <p className="text-center">{d.text}</p>
               <Link 
               key={d.title}
