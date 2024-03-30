@@ -88,19 +88,26 @@ export const SkillData = [
   },
 ];
 export const Socials = [
-
+  {
+    name: "/",
+    src: "/resume.svg",
+    link: "https://drive.google.com/file/d/1uE6p-SS30sBpHgapEM5qEfZ5Z3BppXwh/view?usp=sharing",
+  },
   {
     name: "Linkedin",
     src: "/linkedin.svg",
+    link: "https://www.linkedin.com/in/asmae-moubarriz/"
   },
   {
     name: "Github",
     src: "/github.svg",
+    link: "https://github.com/asmaembr"
   },
   {
     name: "Email",
     src: "/email.svg",
-  },
+    link: "mailto:asmae.moubr@gmail.com"
+  }
 ];
 export const Projects = [
   {
@@ -144,5 +151,5 @@ export const NavLinks = [
     name: "/contact-me",
     icon: RxChatBubble,
     link: "./contact-me",
-  },
+  }
 ];
