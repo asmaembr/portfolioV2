@@ -4,27 +4,22 @@ export const SkillData = [
   {
     name: "Java",
     Image: "/java.png",
-    width: 80,
-    height: 80,
+    width: 100,
+    height: 100,
   },
   {
     name: "C++",
     Image: "/cpp.png",
-    width: 80,
+    width:80,
     height: 80,
   },
   {
     name: "C#",
     Image: "/csharp.png",
-    width: 80,
+    width:80,
     height: 80,
   },
-  {
-    name: "Figma",
-    Image: "/figma.png",
-    width: 80,
-    height: 80,
-  },
+
   {
     name: "Git ",
     Image: "/git.png",
@@ -34,12 +29,6 @@ export const SkillData = [
   {
     name: "Flutter",
     Image: "/flutter.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: ".Net Framework",
-    Image: "/dotnet.png",
     width: 80,
     height: 80,
   },
@@ -56,14 +45,8 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "mysql DB",
+    name: "MySQL DB",
     Image: "/mysql.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "SQL sever",
-    Image: "/sqlms.png",
     width: 80,
     height: 80,
   },
@@ -74,7 +57,7 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "docker",
+    name: "Docker",
     Image: "/docker.webp",
     width: 80,
     height: 80,
@@ -98,33 +81,12 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "JavaScript",
-    Image: "/js.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "Tailwind Css",
-    Image: "/tailwind.png",
-    width: 80,
-    height: 80,
-  },
-
-  {
     name: "TypeScript",
     Image: "/ts.png",
     width: 80,
     height: 80,
   },
-  {
-    name: "Next js 13",
-    Image: "/next.png",
-    width: 80,
-    height: 80,
-  }
-  
 ];
-
 export const Socials = [
 
   {
@@ -162,7 +124,6 @@ export const Projects = [
     src: "/Matrix.png",
   },
 ];
-
 export const NavLinks = [
   {
     name: "/",

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -7,11 +6,11 @@ export default function Home() {
       <div  style={{backgroundImage: "url(/main-bg.webp)"}}  
       className="flex items-center w-full h-full bg-cover bg-center"
        >
-        <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
-          <h1 className="text-[50px] text-white font-semibold">
-            Welcome to my Portfolio <br></br>
+        <div className="absolute pl-10 md:pl-40 md:pb-20 flex flex-col gap-5 z-[10] max-w-[600px] top-40">
+          <h1 className=" text-[50px] text-white font-semibold">
+          Welcome , <br></br> I am   
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-red-500">
-            {" "} I am  Software Engineering student 
+            {" "} Software Engineering student 
             </span>
           </h1>
         </div>
@@ -23,12 +22,13 @@ export default function Home() {
             alt="horse"
             height={300}
             width={300}
-            className="absolute right-55 top-40"/>
+            className="absolute right-50 top-40"/>
             <Image
             src="/cliff.webp"
             alt="cliff"
             height={480}
-            width={480}/>
+            width={480}
+            />
            </div>
            <div className="absolute bottom-0 z-[5] w-full h-auto">
             <Image
