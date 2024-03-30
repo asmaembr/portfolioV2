@@ -34,16 +34,17 @@ const Navigation = () => {
 
   return (
     <div 
-      style={{left : "20%"}}
-      className='absolute z-[50] bottom-10 w-[50%] md:w-[20%] max-h-[150px] rounded-full flex justify-between items-center bg-black'
+      style={{
+        left:"20%",
+      }}
+      className='ml-5 mr-5 absolute z-50 bottom-20 w-[50%] md:w-[20%] max-h-[150px] rounded-full flex justify-between items-center bg-black '
       >
-      
       {isRouting && <Transition/>}
       { NavLinks.map((nav) => (
           <Link 
           key={nav.name} 
           href={nav.link}
-          className='mt-5 mb-5 pl-5 pr-5 min-w-[20%]'
+          className='p-5 min-w-[20%]'
           >
           <nav.icon className={`w-[25px] h-[25px] ${path === nav.name? "text-purple-800": "text-white"}`}/>
           </Link>

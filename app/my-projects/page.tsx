@@ -26,20 +26,23 @@ const Page = () => {
         <source src="/4K.mp4" type='video/mp4' />
       </video>
       
-      <div className='w-full h-full flex flex-col items-center justify-center'>
-      <div className=" w-full mt-10">
-      <div className=" relative mt-5 text-center ">
-      <h1 className='font-semibold mr-5 ml-5 text-white text-[30px]'>
+      <div className='w-full h-full flex flex-col  items-center justify-center'>
+      <div className="w-full">
+      <div className=" relative text-center  ">
+        <span className=''>
+        <h1 className='font-semibold m-5 text-white text-[30px]'>
             Projects 
             </h1>
-          <p className="ml-5 mr-5 text-gray-400 text-lg ">
+        </span>
+      
+          <p className="m-5 text-gray-400 text-lg ">
           Here&apos;s some projects I enjoyed creating. Feel free to check them out on GitHub.
           </p>
           </div>
       <Slider {...settings}>
         {Projects.map((d) => (
-          <div key={d.title} className=" text-white rounded-xl ">
-            <div className='h-40 flex justify-center items-center'>
+          <div key={d.title} className=" text-white rounded-xl bg-black ">
+            <div className='m-5 flex justify-center items-center'>
               <Image
                src={d.src}
                 alt={d.title} 
