@@ -3,19 +3,21 @@ import React from 'react'
 import 'swiper/css'
 import { SkillData } from '@/constants'
 import Image from 'next/image'
-import videoBg from '@/public/bg.mp4'
 
 const Page = () => {
   return (
-    <div
-    className='pt-20 h-screen w-screen items-center justify-center bg-cover bg-center'>
-      <video
-      src={videoBg}
-      loop
+    <div className='w-screen h-screen overflow-hidden'>
+    <video
       autoPlay
-      muted
-      className='absolute object-cover w-full h-full z-[-1]'
-      />
+      loop
+      className='absolute top-0 left-0 min-w-full min-h-full object-cover'
+    >
+      <source src="/4K.mp4" type='video/mp4' />
+    </video>
+
+    <div className='relative z-10 w-full h-full flex items-center justify-center'>
+    <div 
+    className='pt-20 h-screen w-screen items-center justify-center bg-cover bg-center'>
       <div 
       className=' flex flex-col gap-10 max-w-[100%] max-h-[80%] text-center items-center'>
         <div
@@ -30,7 +32,7 @@ const Page = () => {
             Technologies
             </h1>
             <p className="text-gray-400 mr-5 ml-5 text-[20px]">
-              tried my best to master each one of these skills
+            Here are some of the skills and technologies I have worked with. 
             </p>
           </div>
 
@@ -51,6 +53,9 @@ const Page = () => {
 
       </div>
       </div>
+    </div>
+  </div>
+
   )
 }
 
