@@ -14,7 +14,7 @@ const Navbar = () => {
       height={100} 
       />
       </div>
-      <div className='flex text-white flex-row gap-5 mb-2'>
+      <div className='flex text-white flex-row gap-3 mb-2'>
         {Socials.map((social) =>(
          <Link href={social.link} 
          target="_blank" 
