@@ -26,15 +26,13 @@ const Page = () => {
       </video>
       
       <div className='w-full h-full flex flex-col items-center justify-center'>
-      <div className=' w-full mt-20'>
-      <div className="text-center ">
+      <div className=" w-full mt-20">
+      <div className=" relative mt-5 text-center ">
       <h1 className='font-semibold mr-5 ml-5 text-white text-[30px]'>
-            <span className=" text-transparent bg-clip-text bg-gradient-to-r from-white to-purple-500">
-            Projects {" "}
-            </span>
+            Projects 
             </h1>
-          <p className='ml-5 mr-5 text-gray-400 text-lg '>
-          Here&apos;s some of the technologies and skills I&apos;ve been working with recently
+          <p className="ml-5 mr-5 text-gray-400 text-lg ">
+          Here&apos;s some projects I enjoyed working on
           </p>
           </div>
       <Slider {...settings}>
