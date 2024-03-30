@@ -15,9 +15,9 @@ export const SkillData = [
   },
   {
     name: "C#",
-    Image: "/csharp.png",
-    width:80,
-    height: 80,
+    Image: "/csharp.svg",
+    width:60,
+    height: 60,
   },
 
   {
@@ -53,8 +53,8 @@ export const SkillData = [
   {
     name: "Oracle Database",
     Image: "/oracle.png",
-    width: 80,
-    height: 80,
+    width: 100,
+    height: 100,
   },
   {
     name: "Docker",
@@ -77,14 +77,14 @@ export const SkillData = [
   {
     name: "Css",
     Image: "/css.png",
-    width: 80,
-    height: 80,
+    width: 100,
+    height: 100,
   },
   {
     name: "TypeScript",
     Image: "/ts.png",
-    width: 80,
-    height: 80,
+    width: 70,
+    height: 70,
   },
 ];
 export const Socials = [
