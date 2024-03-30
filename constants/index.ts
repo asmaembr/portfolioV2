@@ -88,11 +88,7 @@ export const SkillData = [
   },
 ];
 export const Socials = [
-  {
-    name: "/",
-    src: "/resume.svg",
-    link: "https://drive.google.com/file/d/1uE6p-SS30sBpHgapEM5qEfZ5Z3BppXwh/view?usp=sharing",
-  },
+
   {
     name: "Linkedin",
     src: "/linkedin.svg",
@@ -107,6 +103,11 @@ export const Socials = [
     name: "Email",
     src: "/email.svg",
     link: "mailto:asmae.moubr@gmail.com"
+  },
+  {
+    name: "/",
+    src: "/cv.svg",
+    link: "https://drive.google.com/file/d/1uE6p-SS30sBpHgapEM5qEfZ5Z3BppXwh/view?usp=sharing",
   }
 ];
 export const Projects = [
