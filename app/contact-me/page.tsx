@@ -17,14 +17,7 @@ const Page = () => {
     
 
       <div className='relative z-15 w-full h-full flex items-center justify-center'>
-      <div
-  style={{backgroundImage: `url('/bg.jpg')`, 
-  backgroundSize: 'cover', 
-  backgroundPosition: 'center'}}
-  className="text-center text-white p-5 w-[650px] rounded-xl left-10">
-      <Head>
-        <title>Contact Me</title>
-      </Head>
+      <div className="text-center text-white p-5 w-[650px] rounded-xl left-10">
       <div className='mb-5'>
         <h2 className="text-3xl font-bold mb-4">Contact Me</h2>
         <p className="text-lg">I am always open to questions and internship interviews.</p>
