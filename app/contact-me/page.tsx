@@ -1,12 +1,13 @@
 "use client"
 import React from 'react';
 import Head from 'next/head';
-import Image from 'next/image';
+
 const Page = () => {
   return (
     <div className='w-screen h-screen overflow-hidden'>
       <video
         autoPlay
+        muted
         loop
         className='absolute top-0 left-0 min-w-full min-h-full object-cover'
       >
