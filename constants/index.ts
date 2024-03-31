@@ -119,8 +119,8 @@ export const Projects = [
     text: "Creating a WordPress site to handle certificates and courses, with Flutter's mobile UI features like WebView and Network Dependencies integrated.",
     src: "/mycourse.png",
     link:"https://github.com/asmaembr/MyCourse-Flutter-App",
-    width: 100,
-    height: 100,
+    width: 80,
+    height: 80,
   },
   {
     title:"ChatBot - Amigo",
@@ -136,7 +136,7 @@ export const Projects = [
     src: "/jazzapp.png",
     link:"https://github.com/asmaembr/flutter-music-app",
     width: 80,
-    height:80,
+    height: 80,
   },
   {
     title:"Artificial Intelligence Project",

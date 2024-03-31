@@ -33,8 +33,11 @@ const Navigation = () => {
   }, [isRouting])
 
   return (
+
     <div 
-      style={{bottom:"5px" }}
+      style={{ bottom:"5px",
+      display: "flex", 
+      justifyContent: "center" }}
       className='ml-10 mr-10 absolute z-50 w-[50%] md:w-[20%] max-h-[150px] rounded-full flex justify-between border border-white items-center bg-black'
       >
       {isRouting && <Transition/>}
