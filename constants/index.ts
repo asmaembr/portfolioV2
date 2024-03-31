@@ -131,7 +131,7 @@ export const Projects = [
     height:80,
   },
   {
-    title:" Flutter Jazz Music ",
+    title:"Flutter Jazz Music ",
     text: "Building a Jazz music player mobile app with Flutter architecture, Dart models, and utilizing Flutter packages and widgets.",
     src: "/jazzapp.png",
     link:"https://github.com/asmaembr/flutter-music-app",

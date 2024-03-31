@@ -9,7 +9,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Asmae | Portfolio",
   description: "Asmae Moubarriz's portfolio",
-  icons: ['/mypic.ico']
 };
 
 export default function RootLayout({

@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 "use client"
 import React, {useState} from 'react'
 import { usePathname } from 'next/navigation'
@@ -30,7 +29,7 @@ const Navigation = () => {
 
       return () => clearTimeout(timeout)
     }
-  }, [isRouting])
+  }, [isRouting, path])
 
   return (
 <div className="absolute bottom-0 left-0 right-0 flex justify-center">
