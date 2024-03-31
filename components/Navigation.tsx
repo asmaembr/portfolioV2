@@ -34,10 +34,8 @@ const Navigation = () => {
 
   return (
     <div 
-      style={{
-        left:"20%",
-      }}
-      className='ml-5 mr-5 absolute z-50 bottom-20 w-[50%] md:w-[20%] max-h-[150px] rounded-full flex justify-between items-center bg-black '
+      style={{bottom:"5px" }}
+      className='ml-10 mr-10 absolute z-50 w-[50%] md:w-[20%] max-h-[150px] rounded-full flex justify-between border border-white items-center bg-black'
       >
       {isRouting && <Transition/>}
       { NavLinks.map((nav) => (

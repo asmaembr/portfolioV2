@@ -20,7 +20,7 @@ const Page = () => {
   style={{backgroundImage: `url('/bg.jpg')`, 
   backgroundSize: 'cover', 
   backgroundPosition: 'center'}}
-  className="text-center text-white p-5 w-[650px] left-10">
+  className="text-center text-white p-5 w-[650px] rounded-xl left-10">
       <Head>
         <title>Contact Me</title>
       </Head>
