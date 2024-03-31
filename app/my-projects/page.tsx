@@ -8,7 +8,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const Page = () => {
-  const isMobile = window.innerWidth <= 768; 
+  const isMobile = matchMedia("(max-width: 768px)").matches;
   const settings = {
     dots: true,
     infinite: true,
