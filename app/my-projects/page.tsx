@@ -8,7 +8,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 const Page = () => {
-  const isMobile = innerWidth <= 768; 
+  const isMobile = window.innerWidth <= 768; 
   const settings = {
     dots: true,
     infinite: true,
