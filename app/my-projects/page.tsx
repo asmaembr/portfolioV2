@@ -17,31 +17,29 @@ const Page = () => {
     slidesToScroll: 1
   };
   return (
-    <div className='w-screen h-screen overflow-hidden'>
-      <video
-        autoPlay
-        loop
-        className='absolute top-0 left-0 min-w-full min-h-full object-cover'
-      >
-        <source src="/4K.mp4" type='video/mp4' />
-      </video>
+    <div className='w-screen h-screen overflow-hidden'
+    style={{       
+      width: '100vw',
+      height: '100vh',
+      overflow: 'hidden',
+      backgroundImage: 'url("darkbg.jpg")',
+      backgroundSize: 'cover',
+           }}>
+
       
-      <div className='w-full h-full flex flex-col  items-center justify-center'>
+      <div className="h-full flex flex-col items-center justify-center text-center ">
       <div className="w-full">
-      <div className=" relative text-center  ">
-        <span className=''>
-        <h1 className='font-semibold m-5 text-white text-[30px]'>
+      <div className="text-center mb-5">
+        <h1 className='mr-5 ml-5 text-4xl text-white font-semibold mb-3'>
             Projects 
             </h1>
-        </span>
-      
-          <p className="m-5 text-gray-400 text-lg ">
+          <p className="ml-5 mr-5 text-white text-xl ">
           Here&apos;s some projects I enjoyed creating. Feel free to check them out on GitHub.
           </p>
           </div>
       <Slider {...settings}>
         {Projects.map((d) => (
-          <div key={d.title} className=" text-white rounded-xl bg-black ">
+          <div key={d.title} className=" text-white rounded-xl  ">
             <div className='m-5 flex justify-center items-center'>
               <Image
                src={d.src}
@@ -57,13 +55,13 @@ const Page = () => {
               <Link 
               key={d.title}
               href={d.link}
-              className="text-white text-lg px-6 py-1 rounded-xl ">
+              className="text-black text-lg px-6 py-1 rounded-xl ">
                   <Image
                   src="/github.svg"
                   alt='git repository'
                   width={40}
                   height={40}
-                  style={{ filter: 'brightness(0) invert(1)' }}
+                  style={{ filter: 'invert(1)' }}
                  />
               </Link>
             </div>
