@@ -15,12 +15,12 @@ export default function Home() {
         backgroundSize: 'cover',
       }}>
 
-      <div className='relative z-10 w-full h-full flex items-center justify-center'>
+      <div className='relative z-5 w-full h-full flex items-center justify-center'>
         <div className="flex items-center w-full h-full bg-cover bg-center">
           <div className="absolute inset-0 flex justify-center items-center z-[10]">
             <div className="flex flex-col gap-5 max-w-[600px] text-center pb-20">
               <h1 className='text-4xl text-white text-center font-bold'>Welcome</h1>
-              <h1 className='text-4xl text-center font-semibold bg-clip-text text-transparent bg-gradient-to-r from-black to-pink-600'>
+              <h1 className='text-4xl text-center font-semibold bg-clip-text text-transparent bg-gradient-to-r from-white to-red-500'>
   I&apos;M Asmae Moubarriz
 </h1>
 <div className='flex text-center justify-center flex-row gap-3 mb-2'>
@@ -48,15 +48,15 @@ export default function Home() {
           <Image
             src="/horse.png"
             alt="horse"
-            height={160}
-            width={160}
+            height={100}
+            width={100}
             className="absolute right-50 top-40"
           />
           <Image
             src="/cliff.webp"
             alt="cliff"
-            height={340}
-            width={340}
+            height={300}
+            width={300}
           />
         </div>
 
