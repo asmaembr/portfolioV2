@@ -48,15 +48,15 @@ export default function Home() {
           <Image
             src="/horse.png"
             alt="horse"
-            height={100}
-            width={100}
+            height={160}
+            width={160}
             className="absolute right-50 top-40"
           />
           <Image
             src="/cliff.webp"
             alt="cliff"
-            height={300}
-            width={300}
+            height={340}
+            width={340}
           />
         </div>
 
