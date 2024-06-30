@@ -15,9 +15,9 @@ export default function Home() {
         backgroundSize: 'cover',
       }}>
 
-      <div className='relative z-5 w-full h-full flex items-center justify-center'>
+      <div className='relative w-full h-full flex items-center justify-center'>
         <div className="flex items-center w-full h-full bg-cover bg-center">
-          <div className="absolute inset-0 flex justify-center items-center z-[10]">
+          <div className="absolute inset-0 flex justify-center items-center">
             <div className="flex flex-col gap-5 max-w-[600px] text-center pb-20">
               <h1 className='text-4xl text-white text-center font-bold'>Welcome</h1>
               <h1 className='text-4xl text-center font-semibold bg-clip-text text-transparent bg-gradient-to-r from-white to-red-500'>
