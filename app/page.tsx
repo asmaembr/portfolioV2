@@ -18,8 +18,9 @@ export default function Home() {
         <div className="flex items-center w-full h-full bg-cover bg-center">
           <div className="absolute inset-0 flex justify-center items-center z-[10]">
             <div className="flex flex-col gap-5 max-w-[600px] text-center pb-20">
-              <h1 className='text-4xl text-white text-center font-bold'>Welcome</h1>
-              <h1 className='text-3xl text-white text-center font-semibold'>I&apos;M <span className='text-black'></span></h1>
+              <h1 className='text-5xl text-white text-center font-bold'>Welcome</h1>
+              <h1 className='text-5xl text-white text-center font-semibold'>I&apos;M Asmae Moubarriz</h1>
+              <h1 className='text-5xl text-white text-center font-semibold'>A Software Engineer </h1>
             </div>
           </div>
         </div>
