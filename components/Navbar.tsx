@@ -26,7 +26,7 @@ const Navbar = () => {
          width={30}
          height={30}
          className='cursor-pointer object-contain hover:scale-110 transform transition duration-300 ease-in-out'
-         style={{ filter: 'brightness(0) invert(1)' }}
+         style={{ filter: social.filter }}
         />
         </Link>
         ))}

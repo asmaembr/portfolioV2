@@ -20,7 +20,7 @@ export default function Home() {
        >
   <div className="absolute inset-0 flex justify-center items-center z-[10]">
   <div className="flex flex-col gap-5 max-w-[600px] text-center pb-20">
-    <h1 className="text-5xl text-black font-semibold">
+    <h1 className="text-5xl text-white font-semibold">
       Hello,<br />I&apos;m Asmae A<br />Software Engineering Student
     </h1>
   </div>

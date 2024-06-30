@@ -22,7 +22,7 @@ const Page = () => {
       width: '100vw',
       height: '100vh',
       overflow: 'hidden',
-      backgroundImage: 'url("darkbg.jpg")',
+      backgroundImage: 'url("montains.jpg")',
       backgroundSize: 'cover',
            }}>
 
@@ -40,7 +40,7 @@ const Page = () => {
       <Slider {...settings}>
         {Projects.map((d) => (
           <div key={d.title} className=" text-white rounded-xl  ">
-            <div className='m-5 flex justify-center items-center'>
+            <div className='flex flex-row justify-center items-center'>
               <Image
                src={d.src}
                 alt={d.title} 
@@ -55,13 +55,14 @@ const Page = () => {
               <Link 
               key={d.title}
               href={d.link}
-              className="text-black text-lg px-6 py-1 rounded-xl ">
+              className="text-black text-lg px-6 py-1 rounded-xl "   
+              target="_blank">
                   <Image
-                  src="/github.svg"
-                  alt='git repository'
+                  src={d.img}
+                  alt={d.alt}
                   width={40}
                   height={40}
-                  style={{ filter: 'invert(1)' }}
+                  style={{filter : d.filter}}
                  />
               </Link>
             </div>
