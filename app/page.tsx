@@ -23,7 +23,7 @@ export default function Home() {
               <h1 className='text-4xl text-center font-semibold bg-clip-text text-transparent bg-gradient-to-r from-white to-red-500'>
   I&apos;M Asmae Moubarriz
 </h1>
-<div className='flex text-center justify-center flex-row gap-3 mb-2'>
+<div className='z-50 flex text-center justify-center flex-row gap-3 mb-2'>
         {Socials.map((social) =>(
          <Link href={social.link} 
          target="_blank" 
