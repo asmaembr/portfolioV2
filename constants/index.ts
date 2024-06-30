@@ -73,12 +73,6 @@ export const SkillData = [
     width: 50,
     height: 60,
   },
- {
-    name: "Auth0",
-    Image: "/auth0.svg",
-    width: 50,
-    height: 50,
-  },
   {
     name: "Flutter",
     Image: "/flutter.svg",
