@@ -33,13 +33,13 @@ const Navigation = () => {
 
   return (
 <div className="absolute top-0 left-0 right-0 flex justify-center">
-  <div className="ml-10 mr-10 z-50 w-[50%] md:w-[20%] max-h-[150px] rounded-full flex justify-between border items-center bg-white">
+  <div className="ml-10 mr-10 z-50 w-[50%] md:w-[20%] max-h-[150px] bg-transparent flex justify-between  border-transparent items-center">
     {isRouting && <Transition />}
     {NavLinks.map((nav) => (
-      <Link key={nav.name} href={nav.link} className="p-5 min-w-[20%]">
+      <Link key={nav.name} href={nav.link} className="p-5 min-w-[20%] text-white">
         <nav.icon
           className={`w-[25px] h-[25px] ${
-            path === nav.name ? "text-blue-800" : "text-black"
+            path === nav.name ? "text-black" : "text-white"
           }`}
         />
       </Link>
