@@ -117,27 +117,28 @@ export const Socials = [
     name: "Linkedin",
     src: "/linkedin.svg",
     link: "https://www.linkedin.com/in/asmae-moubarriz/",
-    filter : 'brightness(0) invert(1)',
+    filter : 'brightness(0)',
 
   },
   {
     name: "Github",
     src: "/github.svg",
     link: "https://github.com/asmaembr",
-    filter : 'brightness(0) invert(1)',
+    filter : 'brightness(0) ',
   
   },
   {
     name: "Email",
     src: "/mail.svg",
     link: "mailto:asmae.moubr@gmail.com",
-    filter : 'brightness(0) invert(1)',
+    filter : 'brightness(0)',
 
   },  
   {
     name: "Discord",
     src: "/discord.svg",
     link: "https://discordapp.com/users/965362198199300146",
+    filter : 'brightness(0)',
   }
 ];
 export const Projects = [

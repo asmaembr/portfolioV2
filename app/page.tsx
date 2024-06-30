@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
-
+import { Socials } from '@/constants';
+import Link from 'next/link';
 
 export default function Home() {
 
@@ -19,7 +20,26 @@ export default function Home() {
           <div className="absolute inset-0 flex justify-center items-center z-[10]">
             <div className="flex flex-col gap-5 max-w-[600px] text-center pb-20">
               <h1 className='text-4xl text-white text-center font-bold'>Welcome</h1>
-              <h1 className='text-3xl text-white text-center font-semibold'>I&apos;M Asmae Moubarriz A Software Engineer</h1>
+              <h1 className='text-4xl text-center font-semibold bg-clip-text text-transparent bg-gradient-to-r from-black to-pink-600'>
+  I&apos;M Asmae Moubarriz
+</h1>
+<div className='flex text-center justify-center flex-row gap-3 mb-2'>
+        {Socials.map((social) =>(
+         <Link href={social.link} 
+         target="_blank" 
+         rel="noopener noreferrer"
+         key={social.name}>
+         <Image
+         src={social.src}
+         alt={social.name}
+         width={30}
+         height={30}
+         className='cursor-pointer object-contain hover:scale-110 transform transition duration-300 ease-in-out'
+         style={{ filter: social.filter }}
+        />
+        </Link>
+        ))}
+      </div>
             </div>
           </div>
         </div>

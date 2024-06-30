@@ -14,24 +14,6 @@ const Navbar = () => {
       height={100} 
       />
       </div>
-      <div className='flex text-white flex-row gap-3 mb-2'>
-        {Socials.map((social) =>(
-         <Link href={social.link} 
-         target="_blank" 
-         rel="noopener noreferrer"
-         key={social.name}>
-         <Image
-         src={social.src}
-         alt={social.name}
-         width={30}
-         height={30}
-         className='cursor-pointer object-contain hover:scale-110 transform transition duration-300 ease-in-out'
-         style={{ filter: social.filter }}
-        />
-        </Link>
-        ))}
-      </div>
-  
     </div>
   )
 }
