@@ -33,7 +33,7 @@ const Navigation = () => {
 
   return (
 <div className="absolute top-0 right-0 flex justify-center">
-  <div className="ml-10 mr-7 z-50 w-[50%] md:w-[20%] max-h-[150px] bg-transparent flex justify-between  border-transparent items-center">
+  <div className="ml-10 mr-7 w-[50%] md:w-[20%] max-h-[150px] bg-transparent flex justify-between  border-transparent items-center">
     {isRouting && <Transition />}
     {NavLinks.map((nav) => (
       <Link key={nav.name} href={nav.link} className="p-5 min-w-[20%] text-white">
