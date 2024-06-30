@@ -32,8 +32,8 @@ const Navigation = () => {
   }, [isRouting, path])
 
   return (
-<div className="absolute bottom-0 left-0 right-0 flex justify-center">
-  <div className="ml-10 mr-10 z-50 w-[50%] md:w-[20%] max-h-[150px] rounded-full flex justify-between border  items-center bg-white">
+<div className="absolute top-0 left-0 right-0 flex justify-center">
+  <div className="ml-10 mr-10 z-50 w-[50%] md:w-[20%] max-h-[150px] rounded-full flex justify-between border items-center bg-white">
     {isRouting && <Transition />}
     {NavLinks.map((nav) => (
       <Link key={nav.name} href={nav.link} className="p-5 min-w-[20%]">
