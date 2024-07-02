@@ -139,6 +139,12 @@ export const Socials = [
     src: "/discord.svg",
     link: "https://discordapp.com/users/965362198199300146",
     filter : 'brightness(0) invert(1)',
+  },
+  {
+    name: "LeetCode",
+    src: "/leetcode.svg",
+    link: "https://leetcode.com/u/mbrasmae/",
+    filter : 'brightness(0) invert(1)',
   }
 ];
 export const Projects = [
